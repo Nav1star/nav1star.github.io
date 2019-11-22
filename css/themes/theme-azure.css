@@ -1,0 +1,44 @@
+.theme-azure .navbar {
+  background-color: #0495C9; }
+
+.theme-azure .navbar-brand {
+  color: #fff; }
+  .theme-azure .navbar-brand:hover {
+    color: #fff; }
+  .theme-azure .navbar-brand:active {
+    color: #fff; }
+  .theme-azure .navbar-brand:focus {
+    color: #fff; }
+
+.theme-azure .nav > li > a {
+  color: #fff; }
+  .theme-azure .nav > li > a:hover {
+    background-color: transparent; }
+  .theme-azure .nav > li > a:focus {
+    background-color: transparent; }
+
+.theme-azure .nav .open > a {
+  background-color: transparent; }
+  .theme-azure .nav .open > a:hover {
+    background-color: transparent; }
+  .theme-azure .nav .open > a:focus {
+    background-color: transparent; }
+
+.theme-azure .bars {
+  color: #fff; }
+
+.theme-azure .sidebar .menu .list li.active {
+  background-color: transparent; }
+  .theme-azure .sidebar .menu .list li.active > :first-child i, .theme-azure .sidebar .menu .list li.active > :first-child span {
+    color: #0495C9; }
+
+.theme-azure .sidebar .menu .list .toggled {
+  background-color: transparent; }
+
+.theme-azure .sidebar .menu .list .ml-menu {
+  background-color: transparent; }
+
+.theme-azure .sidebar .legal {
+  background-color: #fff; }
+  .theme-azure .sidebar .legal .copyright a {
+    color: #0495C9 !important; }
