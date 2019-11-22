@@ -1,0 +1,92 @@
+﻿@import '_theme-color-variables';
+
+.theme-azure {
+
+    .navbar {
+        background-color: $theme-azure;
+    }
+
+    .navbar-brand {
+        color: $theme-azure-navbar-brand;
+
+        &:hover {
+            color: $theme-azure-navbar-brand_hover;
+        }
+
+        &:active {
+            color: $theme-azure-navbar-brand_active;
+        }
+
+        &:focus {
+            color: $theme-azure-navbar-brand_focus;
+        }
+    }
+
+    .nav {
+        > li {
+            > a {
+                color: $theme-azure-nav-anchor;
+
+                &:hover {
+                    background-color: $theme-azure-nav-anchor_hover;
+                }
+
+                &:focus {
+                    background-color: $theme-azure-nav-anchor_focus;
+                }
+            }
+        }
+
+        .open {
+            > a {
+                background-color: $theme-azure-nav-anchor-opened;
+
+                &:hover {
+                    background-color: $theme-azure-nav-anchor-opened_hover;
+                }
+
+                &:focus {
+                    background-color: $theme-azure-nav-anchor-opened_focus;
+                }
+            }
+        }
+    }
+
+    .bars {
+        color: $theme-azure-bar;
+    }
+
+    .sidebar {
+        .menu {
+            .list {
+                li.active {
+                    background-color: $theme-azure-menu-list-active;
+
+                    > :first-child {
+                        i, span {
+                            color: $theme-azure;
+                        }
+                    }
+                }
+
+                .toggled {
+                    background-color: $theme-azure-menu-list-toggled;
+                }
+
+                .ml-menu {
+                    background-color: $theme-azure-menu-list-submenu;
+                }
+            }
+        }
+
+        .legal {
+            background-color: $theme-azure-legal-bg;
+
+            .copyright {
+                a {
+                    color: $theme-azure !important;
+                }
+            }
+        }
+    }
+}
